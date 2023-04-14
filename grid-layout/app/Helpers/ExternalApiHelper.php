@@ -63,7 +63,7 @@ class ExternalApiHelper
     public function getSizes($photo_id)
     {
         $params = array(
-            'api_key'	=> env('FLICKR_APP_KEY'),
+            'api_key'	=> env('FLICKR_API_KEY'),
             'photo_id'  => $photo_id,
             'method'	=> 'flickr.photos.getSizes',
             'format'	=> 'json',
