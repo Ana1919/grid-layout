@@ -5,6 +5,7 @@
     <meta name="viewport">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>App Name - @yield('title')</title>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
         html {

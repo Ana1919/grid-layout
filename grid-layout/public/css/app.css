@@ -60,22 +60,16 @@ h1 {
 }
 
 .test_box .inner .test_click {
-    -webkit-align-content: center;
     align-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     background-color: rgba(0, 0, 0, .1);
     color: #fff;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
     height: 250px;
     mix-blend-mode: normal;
     text-align: center;
     text-decoration: none;
-    -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
 }
 
@@ -85,13 +79,11 @@ h1 {
 }
 
 .flex_this {
-    -webkit-align-content: center;
     align-content: center;
     display: inherit;
     flex-wrap: inherit;
     height: auto;
     margin: 0;
-    -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
     width: 100%;
 }
@@ -147,3 +139,4 @@ h1 {
         float: left;
     }
 }
+
