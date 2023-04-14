@@ -78,4 +78,8 @@ class ExternalApiHelper
         $rsp = file_get_contents($url);
         return json_decode($rsp);
     }
+
+    public static function bar(){
+        return app(ExternalApiHelper::class)->requestAPI();
+    }
 }

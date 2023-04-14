@@ -1,5 +1,7 @@
 <?php
 
+use App\Helpers\ExternalApiHelper;
+use App\Http\Controllers\ImagesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return ExternalApiHelper::bar();
 });
 
 Route::get('gallery', [ImagesController::class, 'index'])->name('galleryIndex');
